@@ -1,0 +1,204 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+html {
+  box-sizing: border;
+  font-size: 62.5%;
+  font-family: 'Lato', sans-serif;
+}
+body {
+  width: 100%;
+}
+.navWrap {
+  background-color: #fff;
+  display: flex;
+  border-bottom: solid 1px darkgray;
+  width: 100%;
+  position: fixed;
+}
+.navWrap .logo {
+  padding: 20px 0 20px 40px;
+}
+.navWrap .logo img {
+  max-height: 36px;
+}
+.navWrap .menu {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+}
+.navWrap .menu ul {
+  display: flex;
+  font-size: 1.4rem;
+  color: #55596d;
+}
+.navWrap .menu ul li {
+  padding-right: 30px;
+}
+.navWrap .menu button {
+  background-color: #bb1333;
+  padding: 8px 20px;
+  border: none;
+  margin-right: 30px;
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+}
+.mainHead {
+  width: 100%;
+  min-height: 350px;
+  background-image: url("../images/header.png");
+  background-size: cover;
+  display: flex;
+  color: black;
+  padding-top: 100px;
+  justify-content: center;
+}
+.mainHead .textWrap {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.mainHead .textWrap h1 {
+  font-size: 4rem;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.mainHead .textWrap p {
+  font-size: 1.8rem;
+  color: white;
+  padding-top: 25px;
+  line-height: 1.4;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}

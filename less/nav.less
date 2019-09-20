@@ -1,0 +1,45 @@
+.navWrap{
+    background-color: @topNav;
+    display: flex;
+    border-bottom: solid 1px darkgray;
+    width: 100%;
+    position: fixed;
+
+    .logo{
+        padding: 20px 0 20px 40px;
+
+        img{
+            max-height: 36px;
+        }
+    }
+
+    .menu{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        width: 100%;
+        font-weight: 700;
+        letter-spacing: 0.3px;
+
+        ul{
+            display: flex;
+            font-size: 1.4rem;
+            color: @topLink;
+
+            li{
+                padding-right: 30px;
+            }
+        }
+
+        button{
+            background-color: @lambdaRed;
+            padding: 8px 20px;
+            border: none;
+            margin-right: 30px;
+            color: @topNav;
+            font-size: 1.4rem;
+            font-weight: 700;
+            letter-spacing: 0.3px;
+        }
+    }
+}
