@@ -200,6 +200,16 @@ footer .threeMenuWrap .menuBox ul li {
   padding-top: 5px;
   font-size: 1.4rem;
 }
+@media (max-width: 800px) {
+  footer .threeMenuWrap {
+    width: 80%;
+  }
+}
+@media (max-width: 500px) {
+  footer .threeMenuWrap {
+    width: 95%;
+  }
+}
 footer h6 {
   text-align: center;
   font-size: 1.2rem;
@@ -216,16 +226,26 @@ footer h6 {
   justify-content: center;
 }
 .mainHead .textWrap {
-  width: 45%;
+  width: 55%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 .mainHead .textWrap h1 {
-  font-size: 4rem;
+  font-size: 3.2rem;
   color: white;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+@media (max-width: 800px) {
+  .mainHead .textWrap h1 {
+    font-size: 2.8rem;
+  }
+}
+@media (max-width: 500px) {
+  .mainHead .textWrap h1 {
+    font-size: 2.2rem;
+  }
 }
 .mainHead .textWrap p {
   font-size: 1.8rem;
@@ -233,6 +253,21 @@ footer h6 {
   padding-top: 25px;
   line-height: 1.4;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+@media (max-width: 500px) {
+  .mainHead .textWrap p {
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 800px) {
+  .mainHead .textWrap {
+    width: 75%;
+  }
+}
+@media (max-width: 500px) {
+  .mainHead .textWrap {
+    width: 95%;
+  }
 }
 .twoBoxWrap {
   width: 100%;
@@ -258,6 +293,16 @@ footer h6 {
   font-size: 2.4rem;
   padding-top: 20px;
 }
+@media (max-width: 800px) {
+  .twoBoxWrap .innerBox .innerText h2 {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 500px) {
+  .twoBoxWrap .innerBox .innerText h2 {
+    font-size: 2rem;
+  }
+}
 .twoBoxWrap .innerBox .innerText p {
   font-size: 1.4rem;
   padding-top: 20px;
@@ -271,4 +316,32 @@ footer h6 {
   font-size: 1.4rem;
   font-weight: 700;
   letter-spacing: 0.3px;
+}
+@media (max-width: 800px) {
+  .twoBoxWrap .innerBox .innerText {
+    width: 80%;
+  }
+}
+@media (max-width: 500px) {
+  .twoBoxWrap .innerBox .innerText {
+    width: 95%;
+  }
+}
+@media (max-width: 800px) {
+  .twoBoxWrap .innerBox {
+    width: 48%;
+  }
+}
+@media (max-width: 500px) {
+  .twoBoxWrap .innerBox {
+    width: 95%;
+    margin: 15px 0;
+    min-height: 300px;
+  }
+}
+@media (max-width: 500px) {
+  .twoBoxWrap {
+    flex-direction: column;
+    align-items: center;
+  }
 }
