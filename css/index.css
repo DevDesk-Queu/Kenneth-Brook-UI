@@ -184,6 +184,9 @@ body {
   font-weight: 700;
   letter-spacing: 0.3px;
 }
+.navWrap .menu button:hover {
+  background-color: #4b0814;
+}
 footer {
   width: 100%;
   background-color: black;
@@ -329,6 +332,9 @@ footer h6 {
   font-weight: 700;
   letter-spacing: 0.3px;
 }
+.twoBoxWrap .innerBox .innerText button:hover {
+  background-color: #4b0814;
+}
 @media (max-width: 800px) {
   .twoBoxWrap .innerBox .innerText {
     width: 80%;
@@ -409,4 +415,37 @@ footer h6 {
 }
 .aboutWrap .aboutCard .infoWrap .imageBox img {
   max-height: 125px;
+}
+.aboutWrap .aboutCard .infoWrap .info {
+  width: 35%;
+  font-size: 1.6rem;
+  text-align: center;
+  border-right: 1px solid black;
+  margin: 15px 0;
+}
+.aboutWrap .aboutCard .infoWrap .info ol {
+  padding-top: 15px;
+}
+.aboutWrap .aboutCard .infoWrap .info ol li {
+  line-height: 2;
+}
+.aboutWrap .aboutCard .infoWrap .info ol li .title {
+  text-decoration: underline;
+  color: blue;
+}
+.aboutWrap .aboutCard .infoWrap .social {
+  width: 35%;
+  font-size: 1.6rem;
+  text-align: center;
+  margin: 15px 0;
+}
+.aboutWrap .aboutCard .infoWrap .social ol {
+  padding-top: 15px;
+}
+.aboutWrap .aboutCard .infoWrap .social ol li {
+  line-height: 2;
+}
+.aboutWrap .aboutCard .infoWrap .social ol li .title {
+  text-decoration: underline;
+  color: blue;
 }
