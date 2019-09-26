@@ -152,9 +152,25 @@ body {
 }
 .navWrap .logo {
   padding: 20px 0 20px 40px;
+  width: 15%;
 }
 .navWrap .logo img {
   max-height: 36px;
+}
+@media (max-width: 800px) {
+  .navWrap .logo {
+    padding: 20px 0 20px 30px;
+  }
+}
+@media (max-width: 500px) {
+  .navWrap .logo {
+    padding: 20px 0 20px 15px;
+  }
+}
+@media (max-width: 500px) {
+  .navWrap .logo {
+    margin: 0 auto;
+  }
 }
 .navWrap .menu {
   display: flex;
@@ -174,6 +190,18 @@ body {
 .navWrap .menu ul li a {
   color: #55596d;
 }
+@media (max-width: 800px) {
+  .navWrap .menu ul li {
+    padding-right: 20px;
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 500px) {
+  .navWrap .menu ul li {
+    padding-right: 10px;
+    font-size: 1.2rem;
+  }
+}
 .navWrap .menu button {
   background-color: #bb1333;
   padding: 8px 20px;
@@ -186,6 +214,30 @@ body {
 }
 .navWrap .menu button:hover {
   background-color: #4b0814;
+}
+@media (max-width: 800px) {
+  .navWrap .menu button {
+    margin-right: 20px;
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 500px) {
+  .navWrap .menu button {
+    margin-right: 10px;
+    padding: 8px 15px;
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 500px) {
+  .navWrap .menu {
+    justify-content: space-around;
+  }
+}
+@media (max-width: 500px) {
+  .navWrap {
+    flex-direction: column;
+    padding-bottom: 15px;
+  }
 }
 footer {
   width: 100%;
@@ -414,7 +466,7 @@ footer h6 {
   margin: 15px 0 15px 15px;
 }
 .aboutWrap .aboutCard .infoWrap .imageBox img {
-  max-height: 125px;
+  max-height: 150px;
 }
 .aboutWrap .aboutCard .infoWrap .info {
   width: 35%;
@@ -448,4 +500,25 @@ footer h6 {
 .aboutWrap .aboutCard .infoWrap .social ol li .title {
   text-decoration: underline;
   color: blue;
+}
+@media (max-width: 800px) {
+  .aboutWrap .aboutCard {
+    width: 90%;
+  }
+}
+@media (max-width: 500px) {
+  .aboutWrap .aboutCard {
+    width: 98%;
+  }
+}
+@media (max-width: 800px) {
+  .aboutWrap {
+    flex-direction: column;
+    align-content: center;
+  }
+}
+@media (max-width: 500px) {
+  .aboutWrap {
+    padding-top: 125px;
+  }
 }
