@@ -267,6 +267,9 @@ footer .threeMenuWrap .menuBox ul li {
   padding-top: 5px;
   font-size: 1.4rem;
 }
+footer .threeMenuWrap .menuBox ul li a {
+  color: white;
+}
 @media (max-width: 800px) {
   footer .threeMenuWrap {
     width: 80%;
@@ -302,7 +305,7 @@ footer h6 {
 .mainHead .textWrap h1 {
   font-size: 3.2rem;
   color: white;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 }
 @media (max-width: 800px) {
   .mainHead .textWrap h1 {
@@ -319,7 +322,7 @@ footer h6 {
   color: white;
   padding-top: 25px;
   line-height: 1.4;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 }
 @media (max-width: 500px) {
   .mainHead .textWrap p {
@@ -357,7 +360,7 @@ footer h6 {
   margin: 0 auto;
 }
 .twoBoxWrap .innerBox .innerText h2 {
-  font-size: 2.4rem;
+  font-size: 2.6rem;
   padding-top: 20px;
 }
 @media (max-width: 800px) {
@@ -371,8 +374,9 @@ footer h6 {
   }
 }
 .twoBoxWrap .innerBox .innerText p {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   padding-top: 20px;
+  line-height: 1.4;
 }
 .twoBoxWrap .innerBox .innerText button {
   background-color: #bb1333;
@@ -380,7 +384,7 @@ footer h6 {
   border: none;
   margin-top: 30px;
   color: #fff;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   font-weight: 700;
   letter-spacing: 0.3px;
 }
