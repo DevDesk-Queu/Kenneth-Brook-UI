@@ -1,0 +1,120 @@
+.aboutWrap{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: lightgray;
+    justify-content: space-around;
+    padding-top: 85px;
+    padding-bottom: 25px;
+
+    .aboutCard{
+        width: 46%;
+        min-height: 250px;
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 15px;
+        margin-top: 25px;
+        box-shadow: 3px 3px #666666;
+        padding-top: 10px;
+
+        .nameBar{
+            width: 96%;
+            background-color: @lambdaRed;
+            border: 1px solid black;
+            border-radius: 15px;
+            padding: 15px 0;
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-start;
+            margin: 0 auto;
+
+            h2{
+                color: white;
+                font-size: 2.2rem;
+                text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+            }
+
+            h3{
+                color: white;
+                font-size: 2.8rem;
+                text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+            }
+        }
+
+        .infoWrap{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+
+            .imageBox{
+
+                border: 1px solid black;
+                box-shadow: 2px 2px #666666;
+                margin: 15px 0 15px 15px;
+
+                img{
+                    max-height: 150px;    
+                }
+            }
+
+            .info{
+                width: 35%;
+                font-size: 1.6rem;
+                text-align: center;
+                border-right: 1px solid black;
+                margin: 15px 0;
+
+                ol{
+                    padding-top: 15px;
+
+                    li{
+                        line-height: 2;
+
+                        .title{
+                            text-decoration: underline;
+                            color: blue;
+                        }
+                    }
+                }
+            }
+
+            .social{
+                width: 35%;
+                font-size: 1.6rem;
+                text-align: center;
+                margin: 15px 0;
+
+                ol{
+                    padding-top: 15px;
+
+                    li{
+                        line-height: 2;
+
+                        .title{
+                            text-decoration: underline;
+                            color: blue;
+                        }
+                    }
+                }
+            }
+        }
+
+        @media @tablet{
+            width: 90%; 
+        }
+    
+        @media @phone{
+            width: 98%;
+        }
+
+    }
+
+    @media @tablet{
+        flex-direction: column;
+        align-content: center;
+    }
+
+    @media @phone{
+        padding-top: 125px;
+    }
+}
